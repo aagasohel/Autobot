@@ -21,6 +21,10 @@ public class Demo {
 		res = a-b;
 		System.out.println("subtraction = "+ res);
 	}
+	
+	void multiplication() {
+		System.out.println("Multiplication method");
+	}
 	public static void main(String[] args) {
 		Demo obj = new Demo("Sohel",101);
 		Demo obj2=new Demo("Mohsin",102);
